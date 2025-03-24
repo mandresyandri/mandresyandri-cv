@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" type="image/x-icon" href="assets/img/1311.png">
+
+        <title>CV - Mandresy ANDRI</title>
+    </head>
+    <!-- <body class="scale-cv"> DEBUG PRINT -->
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Mandresy ANDRI</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Accueil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Formations
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Compétences
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Projets
+                            </a>
+                        </li>
+                        <!-- Mettre mes side projects là-dessus -->
+                        <!-- <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <div class="nav__toogle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfil.jpg" alt="" class="home__img">
+                                
+                                <h1 class="home__title">Mandresy <b>ANDRIANTSOANAVALONA</b></h1>
+                                <h3 class="home__profession">Chargé de valorisation des données</h3>
+                                <div>
+                                    <a download="" href="/assets/pdf/cv-mandresyandri.pdf" class="home__button-movil">Télécharger</a>
+                                </div>
+
+                                <div class="home__address bd-grid">
+                                    <span class="home__information">
+                                        <i class='bx bx-map home__icon' ></i> Rue Mary Besseyre 92170, Vanves
+                                    </span>
+                                    <span class="home__information">
+                                        <i class='bx bx-envelope home__icon' ></i> mandresy.andriantsoanavalona@gmail.com
+                                    </span>
+                                    <span class="home__information">
+                                        <i class='bx bx-phone home__icon' ></i> +33 6 14 12 98 65 
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Passer au mode sombre" id="theme-button"></i>
+
+                        <!-- Button to generrate and download the PDF. Available for desktop -->
+                        <i class="bx bx-download generate-pdf" title="Générer au format PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://huggingface.co/mandresyandri" target="_blank" class="social__link">
+                                <i class='bx bxl-graphql social__icon' ></i> @huggingface/mandresyandri
+                            </a>
+                            
+                            <a href="https://github.com/mandresyandri" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i> @github/mandresyandri
+                            </a>
+
+                            <a href="https://gitlab.com/mandresyandri" target="_blank" class="social__link">
+                                <i class='bx bxl-gitlab social__icon' ></i> @gitlab/mandresyandri
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/mandresy-andriantsoanavalona-27aabb21a/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @Mandresy_Andriantsoanavalona
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">À PROPOS</h2>
+                        <p class="profil__description">
+                            Mes projets pour DataForGood, mon expérience en alternance dans les SIG, l'Open Data et mon master en Data Sciences m'ont permis de mettre en application mes compétences en traitement, analyse et valorisation des données. Je suis prêt à mettre ces compétences au service de projets data. 
+                        </p>                        
+                        
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">FORMATIONS</h2>
+
+                        <div class="education__container bd-grid">
+                            <!-- D2SN -->
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a href="https://formations.univ-gustave-eiffel.fr/master/detail/data-science-et-societe-numerique-d2sn-135" class="added__heading" target="_blank" title="En savoir plus sur le master D2SN">
+                                            Master Data Science et Société du Numérique
+                                            <i class='bx bx-link-external accessibility'></i>
+                                        </a>
+                                    </h3>
+                                    <span class="education__studies">Université Gustave Eiffel | Co-accréditation ESIEE</span>
+                                    <span class="education__year">2024-2025</span>
+                                </div>
+                            </div>
+
+                            <!-- CMW -->
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a href="https://mastercmw.com/enseignements/" class="added__heading" target="_blank" title="En savoir plus sur le master CMW">
+                                            Master Cultures et Métiers du Web
+                                            <i class='bx bx-link-external accessibility'></i>
+                                        </a>
+                                    </h3>
+                                    <span class="education__studies">Université Gustave Eiffel</span>
+                                    <span class="education__year">2022-2024</span>
+                                </div>
+                            </div>
+                            
+                            <!-- NTIC -->
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">
+                                        <a href="https://ifis.univ-gustave-eiffel.fr/ifis/formations/licence-professionnelle-webdesign-et-webmarketing" class="added__heading" target="_blank" title="En savoir plus sur le BTS Tourisme">
+                                            Licence Nouvelles Technologies de l’Information et de la Communication
+                                            <i class='bx bx-link-external accessibility'></i>
+                                        </a>
+                                    </h3>
+                                    <span class="education__studies">Université Gustave Eiffel</span>
+                                    <span class="education__year">2021-2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Compétences</h2>
+                    
+                        <div class="skills__content bd-grid">
+                            <ul class="skils__data">
+                                <li class="list-true" style="text-align: left;">
+                                    Programmation Python, SQL, JavaScript, SCSS
+                                </li>
+                                <li class="list-true" style="text-align: left;">
+                                    Machine Learning et Deep Learning
+                                </li>
+                            </ul>
+                    
+                            <ul class="skils__data">
+                                <li class="list-true" style="text-align: left;">
+                                    SIG et géospatial
+                                </li>
+                                <li class="list-true" style="text-align: left;">
+                                    Travail collaboratif (Git)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Expériences</h2>
+
+                        <!-- GPSO -->
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Chargé de valorisation de données - Alternance</h3>
+                                    <span class="experience__compagny">
+                                        <a class="added__heading" href="https://data.seineouest.fr/pages/accueil/" target="_blank" title="Site de la Ville de Meudon">
+                                            Grand Paris Seine Ouest
+                                            <i class='bx bx-link-external accessibility'></i>
+                                        </a>
+                                        | 2024 - 2025</span>
+                                    <ul class="experience__description">
+                                        <li class="list-true">
+                                            Développement de tableaux de bord interactifs permettant le suivi et l'évaluation des plan d'actions de l'établissement public
+                                        </li>
+                                        <li class="list-true">
+                                            Analyse et traitement de données provenant de différentes sources pour extraire des informations pertinentes; requêtage API pour alimenter les données du SIG
+                                        </li>
+                                        <li class="list-true">
+                                            Mise en place de carte participatif pour alimenter les données des observatoires
+                                        </li>
+                                    </ul>
+                                    <span class="tech-tags">
+                                        <span class="tech-tag">OpenDatasoft</span>
+                                        <span class="tech-tag">Gulp.js</span>
+                                        <span class="tech-tag">Angular.js</span>
+                                        <span class="tech-tag">ArcGis</span>
+                                        <span class="tech-tag">ArcPy</span>
+                                        <span class="tech-tag">API [GET]</span>
+                                        <span class="tech-tag">Pandas</span>
+                                        <span class="tech-tag">scikit-learn</span>
+                                        <span class="tech-tag">Geopandas</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MEUDON -->
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Webmaster Technique - Alternance</h3>
+                                    <span class="experience__compagny">
+                                        <a class="added__heading" href="https://www.meudon.fr" target="_blank" title="Site de la Ville de Meudon">
+                                            Ville de Meudon
+                                            <i class='bx bx-link-external accessibility'></i>
+                                        </a>
+                                        | 2022 - 2024</span>
+                                    <ul class="experience__description">
+                                        <li class="list-true">
+                                            Assurance de la cohérence des systèmes applicatifs métiers et l'intégration de leur données dans le site internet de la Ville
+                                        </li>
+                                        
+                                        <li class="list-true">
+                                            Administration technique du parc de sites internet de la Ville et assistance aux contributeurs dans la mise en ligne de contenus
+                                        </li>
+                                        <li class="list-true">
+                                            Analyse statistiques des visites et des comportements des utilisateurs pour améliorer l'expérience utilisateur du site internet
+                                        </li>
+                                    </ul>
+                                    <span class="tech-tags">
+                                        <span class="tech-tag">WordPress</span>
+                                        <span class="tech-tag">Requête flux API/RSS/XML</span>
+                                        <span class="tech-tag">Google Analytics</span>
+                                        <span class="tech-tag">Matomo</span>
+                                        <span class="tech-tag">Google Data Studio</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== DATA FOR GOOD ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Projets et bénévolats</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    <a class="added__heading" href="https://github.com/dataforgoodfr/13_brigade_coupes_rases" target="_blank">
+                                        Canopé & DataForGood | 2025
+                                        <i class='bx bx-link-external accessibility'></i>
+                                    </a>
+                                </h3>
+                                <p class="certificate__description">
+                                    En tant que bénévole Data For Good : développement d'une <b>pipeline de données</b> (ETL) pour alimenter une interface de visualisation interactive afin d'identifier les coupes illégales de forêt et générer des statistiques exploitables.
+                                </p>
+                                <span class="tech-tags">
+                                    <span class="tech-tag">Geopandas</span>
+                                    <span class="tech-tag">Rasterio</span>
+                                    <span class="tech-tag">Docker</span>
+                                    <span class="tech-tag">AWS S3</span>
+                                    <span class="tech-tag">Cron ETL</span>
+                                </span>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">
+                                    <a class="added__heading" href="https://saisie.lichensgo.eu/resultsLG" target="_blank">
+                                        Lichensgo & DataForGood | 2024
+                                        <i class='bx bx-link-external accessibility'></i>
+                                    </a>
+                                </h3>
+                                <p class="certificate__description">
+                                    En tant que bénévole Data For Good : développement d'un <b>tableau de bord de suivi</b> de la pollution urbaine à travers l'observation des lichens sur les arbres.
+                                </p>
+                                <span class="tech-tags">
+                                    <span class="tech-tag">PostgreSQL</span>
+                                    <span class="tech-tag">SQLAlchemy</span>
+                                    <span class="tech-tag">Pandas</span>
+                                    <span class="tech-tag">Plotly</span>
+                                    <span class="tech-tag">Dash</span>
+                                    <span class="tech-tag">Docker</span>
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Langues</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Français
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Anglais
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Allemand
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Centres d'intérêt</h2>
+                        <div class="interests__containers bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bxs-book interests__icon"></i>
+                                <span class="interests__name">Lecture</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-swim interests__icon"></i>
+                                <span class="interests__name">Natation</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bxs-piano interests__icon"></i>
+                                <span class="interests__name">Piano</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bxs-watch interests__icon"></i>
+                                <span class="interests__name">Montres</span>
+                            </div>
+                        </div>
+                    </section>
+                    <p class="disclaimer-print">
+                        Pour une meilleure lecture, vous pouvez consulter ce CV au format web  au lien <a class="added__link" ="http://www.cv.mandresyandri.fr/">www.cv.mandresyandri.fr</a>
+                    </p>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
