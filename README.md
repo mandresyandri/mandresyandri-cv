@@ -2,7 +2,7 @@
 
 Bonjour et bienvenue dans ma cuisine digitale ! :) 
 
-Retrouvez le E-CV à l'URL : <a href="http://www.cv.mandresyandri.fr">www.cv.mandresyandri.fr</a> ;) 
+Retrouvez le E-CV à l'URL : <a href="https://mandresyandri.github.io/mandresyandri-cv/">mandresyandri.github.io/mandresyandri-cv/</a> ;) 
 
 <!-- ## Technologies utilisées
 - `HTML` : Contenu et la structure de mon CV
